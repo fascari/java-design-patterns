@@ -1,0 +1,9 @@
+###############################
+#       Abstract Factory      #
+###############################
+
+Deve ser utilizado quando for necessário a independência do sistema do modo de criação, composição ou representação dos seus produtos,
+quando este fizer parte de um pacote de produtos ou até mesmo, caso deseje-se fornecer uma biblioteca de classes onde serão visualizadas apenas suas interfaces, não suas implementações.
+
+O padrão Abstract Factory permite isolar as classes concretas, pois os clientes manipulam as instâncias dessas classes através de suas interfaces.
+Ele facilita a troca de famílias de produto, pois as classes concretas aparecem em apenas um lugar da aplicação, o que elimina a complexidade ao se realizar mudanças nessas classes.

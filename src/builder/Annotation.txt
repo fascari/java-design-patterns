@@ -1,0 +1,23 @@
+###############################
+#          Builder            #
+###############################
+
+- O Builder possibilita a separação da complexidade da criação desse objeto em uma classe específica para isso,
+além de possibilitar a implementação de atributos opcionais mais facilmente.
+
+- Sempre que tivermos um objeto complexo de ser criado, que possui diversos atributos, 
+ou que possui uma lógica de criação complicada, podemos esconder tudo isso em um Builder.
+
+- Além de centralizar o código de criação e facilitar a manutenção, ainda facilitamos a vida das classes
+ que precisam criar essa classe complexa, afinal a interface do Builder tende a ser mais clara e fácil de ser usada.
+ 
+
+BUILDER X FACTORY
+-> São chamados de padrões criacionais, que realizam criação de objetos;
+-> O Builder é um criador de objetos mais complexos, que podem ser diferentes de acordo com as chamadas, onde podemos ter várias tipos de objetos.
+-> O Factory é algo que nós podemos criar mas dificilmente será alterado, e caso seja, todos aqueles que fizeram chamada dele serão alterados, portanto,
+a criação segue a mesma linha do objeto, diferente do Builder que a criação pode ser especifica para cada argumento passado.
+
++ Geralmente usamos um builder quando precisamos passar diversas informações para a lógica que monta o objeto.
++ Usamos uma fábrica quando temos que isolar o processo de criação de um objeto em um único lugar. 
+Essa fábrica pode descobrir como criar o objeto dentro dela própria, mas geralmente ela não precisa de muitas informações para criar o objeto.

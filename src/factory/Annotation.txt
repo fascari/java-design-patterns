@@ -1,0 +1,10 @@
+###############################
+#          Factory            #
+###############################
+
+Com o padrão Factory Method podemos encapsular o código que cria objetos.
+É muito comum termos classes que instanciam classes concretas e essa parte do código normalmente sofre diversas modificações,
+portanto nesses casos usamos um Factory Method que encapsula esse comportamento de instanciação.
+
+Usando o Factory Method temos o nosso código de criação em um objeto ou método, evitando assim a duplicação e além disso temos um local único para fazer manutenção.
+O padrão também nos dá um código flexível e extensível para o futuro.

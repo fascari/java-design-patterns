@@ -1,0 +1,9 @@
+##############################
+#         STRATEGY           #
+##############################
+
+- Usamos interfaces para usar polimorfismo em nossas ações.
+
+- Nós quebramos o uso de vários 'ses', com isso podemos invocar um método que, de acordo com sua
+instância, ele pode chamar um método implementado de maneira diferente de outra instância.
+

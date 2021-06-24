@@ -1,0 +1,33 @@
+###############################
+#           Facade            #
+###############################
+
+- Nós criamos uma "Fachada" para abstrair implementações complexas, o sistema externa ao invés dele conhecer várias classes do meu sistema,
+ele irá conhecer apenas a 'Fachada', dessa forma facilita na utilização.
+
+- Uma Facede serve como uma frente única para os serviços disponibilizados por um ou mais sub-sistemas,
+ provendo uma maneira mais simples para o seu consumo.
+
+###############################
+#         Singletons          #
+###############################
+
+- É a criação de uma única instancia para a nossa apliação toda, é como se fosse um objeto global;
+
+- No meu sistema, terá uma única instancia desse objeto;
+
+
+###############################
+#    Weaknesses X Strong      #
+###############################
+
+- Singleton é o mesmo problema que temos quando usamos uma variavel global;
+
+- Facede temos um problema da nossa classe ficar imensa, com muitas coisas nela;
+
+
+
+
+
+
+

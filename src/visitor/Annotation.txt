@@ -1,0 +1,7 @@
+###############################
+#           Visitor           #
+###############################
+
+- É comum utilizar ele quando eu tenho uma arvore e quero navegar por essa arvore e fazer alguma coisa, como por exemplo
+ estrutura de dados, imprimir resultados.
+ 
